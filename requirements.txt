@@ -1,0 +1,9 @@
+absl-py
+brax>=0.14.2
+flax
+jax
+ml_collections
+mujoco>=3.6.0
+mujoco-mjx>=3.6.0
+numpy
+warp-lang>=1.11
