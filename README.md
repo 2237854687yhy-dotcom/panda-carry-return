@@ -15,6 +15,13 @@ The task is intentionally not a table placement task. The environment uses a
 floor plane, so the learned behavior should keep holding the cube instead of
 dropping it at B.
 
+## Demo
+
+![Panda carry-return task sketch](assets/demo.gif)
+
+This GIF is a task sketch for the README. Replace `assets/demo.gif` with a
+recording from the trained policy when a good rollout is available.
+
 ## Files
 
 - `train_panda_ab.py`: staged PPO training for the carry-and-return task.
