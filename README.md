@@ -19,13 +19,13 @@ dropping it at B.
 
 ![Panda carry-return task sketch](assets/demo.gif)
 
-This GIF is a task sketch for the README. Replace `assets/demo.gif` with a
-recording from the trained policy when a good rollout is available.
+`assets/demo.gif` is generated from a MuJoCo rollout of the trained policy.
 
 ## Files
 
 - `train_panda_ab.py`: staged PPO training for the carry-and-return task.
 - `panda_env_view.py`: quick viewer script for inspecting the Panda environment.
+- `record_policy_demo.py`: renders a trained policy rollout to `assets/demo.gif`.
 
 Policy `.pkl` files are treated as training artifacts and are ignored by Git.
 
@@ -46,4 +46,10 @@ To inspect the base environment:
 
 ```bash
 uv run mjpython panda_env_view.py
+```
+
+To refresh the README demo after training:
+
+```bash
+uv run mjpython record_policy_demo.py
 ```

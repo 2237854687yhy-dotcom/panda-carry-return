@@ -6,4 +6,5 @@ ml_collections
 mujoco>=3.6.0
 mujoco-mjx>=3.6.0
 numpy
+pillow
 warp-lang>=1.11
